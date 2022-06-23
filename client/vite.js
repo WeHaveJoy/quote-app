@@ -4,17 +4,10 @@ export default function loveFunc() {
 
   return {
     love: [],
-    // loveData: {
-    // username: '',
-    // password: '',
-    // count: "",
-    // }
-
     loggedUser: {},
     signUp: {
       username: '',
       password: '',
-
     },
     signIn: {
       username: '',
