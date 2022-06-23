@@ -1,4 +1,4 @@
-import AlpineInstance from "alpinejs";
+// import AlpineInstance from "alpinejs";
 
 export default function LoveCounter() {
     return {
@@ -27,6 +27,29 @@ export default function LoveCounter() {
          } else {
            return "💚💚💚";
          }
-      }
-    }
+      },
+  // love: [],
+  //   // loveData: {
+  //     username: "",
+  //     password: "",
+  //     // count: "",
+  //   // },
+
+  //   addUser() {
+  //    axios
+  //    .post(`http://localhost:4017/api/love_user/`, {
+  //       // method: "POST",
+  //       // headers: { "Content-Type": "application/json" },
+
+  //       // body: JSON.stringify(this.loveData),
+  //       username: this.username,
+  //       password: this.password,
+  //     })
+
+  //     .then(results => {
+  //       console.log(results.data);
+  //     })
+  //   },
+
+     }
 }
