@@ -46,7 +46,8 @@ module.exports = (app, db) => {
       res.status(500).json({
         error: error.message,
       });
-    }
+    
+  }
   });
 
   app.post("/api/logIn", async function (req, res) {

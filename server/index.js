@@ -25,8 +25,7 @@ const config = {
   connectionString:
     process.env.DATABASE_URL ||
     "postgres://sinovuyo:gar123@localhost:5432/hearts_app",
-  ssl: { rejectUnauthorized: false },
-  // ssl: process.env.DATABASE_URL ? true : false
+  // ssl: { rejectUnauthorized: false },
 };
 
 const db = pgp(DATABASE_URL);
