@@ -4,17 +4,10 @@ export default function loveFunc() {
 
   return {
     love: [],
-    // loveData: {
-    // username: '',
-    // password: '',
-    // count: "",
-    // }
-
-    loggedUser: {},
     signUp: {
       username: '',
       password: '',
-
+      response: '',
     },
     signIn: {
       username: '',
@@ -27,12 +20,9 @@ export default function loveFunc() {
 
         .then(results => {
           console.log(results.data);
-          this.message
-          // this.username = `${this.username} ${this.password}`
+          this.response = results.data.message
         }).catch(e => console.log(e.response.data))
     },
-
-
 
     logUser() {
 
